@@ -1,0 +1,43 @@
+.amarillo{
+    background-color: #bdb76b;
+    height: 200px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+}
+
+.verde{
+    background-color: #8fbc8f;
+    height: 40px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 10px;
+}
+
+.hijo1{
+    background-color: #2f4f4f;
+    height: 34px;
+    width: 19%;
+    margin: 3px 16px;
+}
+
+.hijo2{
+    background-color: #b22222;
+    height: 34px;
+    width: 51%;
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+  }
+
+.hijo3{
+    background-color: #008000;
+    height: 34px;
+    width: 19%;
+    margin: 3px 16px;
+}

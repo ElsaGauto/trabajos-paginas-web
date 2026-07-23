@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  background-color: white;
+  font-family: sans-serif;
+  font-size: 1.4rem;
+  text-align: justify;
+  zoom: 55%;
+}
+
+header{
+    background-color: #e64d1a;
+    color: white;
+  }
+
+h1{
+  font-family: "Playball", cursive;
+    margin: 0;
+    padding: 10px 10px 40px;
+    font-size: 4rem;
+    text-transform: uppercase;
+  }
+
+main {
+  display: block;
+  border-left: #e64d1a 5px solid;
+  border-right: #e64d1a 5px solid;
+  margin: 0 5%;
+  padding: 0 5%;
+}
+
+article.siglo {
+  font-family: "Playball", cursive;
+  margin: 50px 0; 
+  padding-bottom: 20px; 
+  background-color: #ffd9cc;
+}
+
+h2{
+  margin: 0;
+  padding-left: 10px;
+  background-color: #e64d1a;
+  color: white;
+}
+
+h3{
+  margin: 0;
+  padding-left: 10px;
+  background-color: #e64d1a;
+  color: white;
+}
+
+ article {
+  overflow: auto;
+  margin: 30px 10%;
+  padding-bottom: 30px;
+  background-color: white;
+}
+
+article article p {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+aside {
+  float: right;
+  border-left: #e64d1a 5px solid;
+  margin: 10px 0 10px 30px;
+  padding: 10px 20px;
+}
+
+aside p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+footer{
+  font-family: "Playball", cursive;
+  background-color: #e64d1a;
+  color: white;
+  padding: 1px;
+}

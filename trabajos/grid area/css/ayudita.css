@@ -1,0 +1,53 @@
+.gridcon {
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    background-color: rgb(22, 22, 22);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 50px;
+    grid-template-areas: 
+    "area1 area1 area2 area2 area3 area4 area4"
+    "area1 area1 area5 area5 area5 area4 area4"
+    "area1 area1 area5 area5 area5 area6 area6";
+}
+.grid-item1{
+    background: blue;
+    text-align: center;
+    border: black 5px solid;
+    grid-area: area1;
+    border-radius: 50px;
+}
+.grid-item2{
+    background: rgb(229, 255, 0);
+    text-align: center;
+    border: black 5px solid;
+    grid-area: area2;
+    border-radius: 50px;
+}
+    .grid-item3{
+        background: rgb(0, 255, 213);
+        text-align: center;
+        border: black 5px solid;
+        grid-area: area3;
+        border-radius: 50px;
+    }
+        .grid-item4{
+            background: rgb(255, 0, 0);
+            text-align: center;
+            border: black 5px solid;
+            grid-area: area4;
+            border-radius: 50px;
+        }
+            .grid-item5{
+                background: rgb(247, 0, 255);
+                text-align: center;
+                border: black 5px solid;
+                grid-area: area5;
+                border-radius: 50px;
+            }
+                .grid-item6{
+                    background: rgb(21, 255, 0);
+                    text-align: center;
+                    border: black 5px solid;
+                    grid-area: area6;
+                    border-radius: 50px;
+                }
